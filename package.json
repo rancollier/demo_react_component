@@ -1,0 +1,32 @@
+{
+  "name": "demo_react_component",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "Randy Collier",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "apollo-client": "2.4.13",
+    "graphql": "14.4.2",
+    "graphql-tag": "2.10.1",
+    "react": "^16.8.6",
+    "react-apollo": "2.5.8",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.39.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.6"
+  }
+}
